@@ -1,0 +1,53 @@
+
+/*===============今日头条================*/
+.hotTopic{
+    width: 100%;
+    background: #ffffff;
+    margin: 1rem 0;
+    padding: 10px 0;
+    height: 70px;
+}
+.hotTopic .hotTopicLeft{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.hotTopic .hotTopicLeft img{
+    width: 50%;
+}
+.hotTopic .hotTopicRight{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.maquee{ height: 60%; width:100%; overflow:hidden; margin:0 auto; }
+.maquee ul{ width:100%; height:100%;}
+.maquee ul li{
+    width:100%;
+    height: 30px;
+    line-height:30px;
+    font-size:1.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    color: #323232;
+}
+.maquee li span{
+    border: 1px solid #ff613b;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 1px 2px;
+    margin-right: 5px;
+    background-color: #ff613b;
+}
+
+

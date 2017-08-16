@@ -1,0 +1,196 @@
+@media only screen and (min-width: 320px){
+    html {
+        font-size: 62.5% !important;
+    }
+}
+@media only screen and (min-width: 640px){
+    html {
+        font-size: 125% !important;
+    }
+}
+@media only screen and (min-width: 750px){
+    html {
+        font-size: 150% !important;
+    }
+}
+@media only screen and (min-width: 1242px){
+    html {
+        font-size: 187.5% !important;
+    }
+}
+img{ border: none;}
+a{text-decoration: none;}
+*{margin: 0;padding: 0;}
+.clearfix{clear: both;}
+.fl{display: inline-block;float: left;}
+.fr{display: inline-block;float: right;}
+
+a{
+    border:none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
+    outline:none;
+    text-decoration: none;
+}
+div{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix::after {content: '';clear: both;display: block;height: 0;visibility: hidden; }
+/*页面样式*/
+.containt{ width: 100%;height: 100%;box-sizing: border-box;position: relative;}
+.ProductionBox{
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    background: #ffffff;
+}
+.ProductionBox ul{
+    width: 100%;
+}
+.ProductionBox ul li{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+}
+.ProductionBox ul li a{
+    width: 100%;
+    display: block;
+}
+.ProductionBox ul li a div{
+    width: 100%;
+    height: 4.5rem;
+    max-height: 5.2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.ProductionBox ul li a div img{
+    width: 40%;
+}
+.ProductionBox ul li a p{
+    display: block;
+    font-size: 1.2rem;
+    color: #323232;
+    /*font-weight: 700;*/
+    text-align: center;
+    line-height: 2.0rem;
+    margin-top: -0.5rem;
+}
+/*===============今日头条================*/
+.hotTopic{
+    width: 100%;
+    background: #ffffff;
+    margin: 1rem 0;
+    padding: 10px 0;
+    height: 70px;
+}
+.hotTopic .hotTopicLeft{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.hotTopic .hotTopicLeft img{
+    width: 50%;
+}
+.hotTopic .hotTopicRight{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.maquee{ height: 60%; width:100%; overflow:hidden; margin:0 auto; }
+.maquee ul{ width:100%; height:100%;}
+.maquee ul li{
+    width:100%;
+    height: 30px;
+    line-height:30px;
+    font-size:1.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    color: #323232;
+}
+.maquee li span{
+    border: 1px solid #ff613b;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 1px 2px;
+    margin-right: 5px;
+    background-color: #ff613b;
+}
+
+
+/*============其他推荐================*/
+.OtherCommand{
+    width: 100%;
+}
+.OtherCommand .OtherComandBox{
+    width: 49.5%;
+    height: 8rem;
+    background: #ffffff;
+    margin-bottom: 1%;
+}
+.OtherCommand .OtherComandBox a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.OtherCommand .OtherComandBox a p{
+    font-size: 1.45rem;
+    color: #000;
+    font-weight: 700;
+    margin: 0 5%;
+}
+.OtherCommand .OtherComandBox a img{
+    width: 20%;
+    margin: 0 1rem;
+}
+
+/*敬请期待*/
+.waitingPopu{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+.waitingPopu .waitingPopuBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.waitingPopu .waitingPopuBox .tip{
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0, 0.7);
+    border-radius: 5px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+    color: #fff;
+}

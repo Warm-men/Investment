@@ -1,0 +1,44 @@
+body{ text-align: left;}
+.Sp-font {
+  font-family:YouYuan,Arial,Verdana,Sans-serif;
+}
+div{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.loanBox{ width: 100%; height: 100%; }
+.loanBox .loanBoxList{ width: 100%; background: #ffffff; margin-bottom: 5px; }
+.loanBox .loanBoxList .topHeader{
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-left: 10px;
+  line-height: 45px;
+}
+.loanBox .loanBoxList .topHeader i{
+  width: 2px; height: 16px; background: #f74052;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  display: inline-block;
+  vertical-align: sub;
+}
+.loanBox .loanBoxList .topHeader span{  font-size: 14px; color: #8d8d8d; margin-left: 5px; display: inline-block; }
+.loanCont{ border-bottom: 1px solid #f0f0f2; height: 80px; }
+.loanCont .loanContList{
+  width: 50%;
+  height: 100%;
+  display: flex; display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.loanCont .loanContList:first-child{ width: calc( 50% - 1px ); border-right: 1px solid #f0f0f2;  }
+.loanCont .loanContList img{ width: 30px;  }
+.loanCont .loanContList p{ font-size: 14px; font-weight: 700; color: #323232; line-height: 25px;  }
+.goToLoan{ margin-top: 2rem; text-align: center }
+.goToLoan button{ width: 90%; height: 40px; background: #ff484a; text-align: center; line-height: 40px; color: #fff;
+  font-size: 14px; border: none; outline: none; }

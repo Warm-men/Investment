@@ -1,0 +1,12 @@
+/* Base Application Styles */
+html, body {position: relative;height: 100%;}
+body {
+  background: #f1f1f1;
+  font-family: "Mircrosoft Yahei","微软雅黑",Tahoma, Arial, Helvetica, STHiti;
+  color:#000;
+  padding: 0;
+  min-width: 320px;
+  max-width: 640px;
+  margin: auto;
+  overflow-x: hidden;
+}
