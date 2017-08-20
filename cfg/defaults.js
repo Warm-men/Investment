@@ -26,7 +26,7 @@ function getDefaultModules() {
     loaders: [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        loader: 'style-loader!css-loader!postcss-loader'
       },
       {
         test: /\.sass/,
@@ -52,13 +52,19 @@ function getDefaultModules() {
         test: /\.(mp4|ogg|svg)$/,
         loader: 'file-loader'
       }
+    ],
+    postcss:[
+      require('autoprefixer')({
+         browsers: ['last 5 versions']
+      })
+
     ]
   };
 }
 
 module.exports = {
   srcPath: srcPath,
-  publicPath: 'assets/',
+  publicPath: '/assets/',
   port: dfltPort,
   getDefaultModules: getDefaultModules
 };
