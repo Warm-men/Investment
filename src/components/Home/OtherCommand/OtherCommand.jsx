@@ -21,10 +21,12 @@ class OtherCommand extends React.Component {
                   </a>
                 </div>
                 <div className="OtherComandBox fr">
-                  <a href="http://mp.weixin.qq.com/s/VEZGAW5aibKsyxFXuJuRMw">
-                    <p>民生服务</p>
-                    <img src={other2} alt="民生服务" />
-                  </a>
+                  <Link to="/livelihood">
+                    <a>
+                      <p>民生服务</p>
+                      <img src={other2} alt="民生服务" />
+                    </a>
+                  </Link>
                 </div>
                 <div className="OtherComandBox fl">
                   <a href="http://mp.weixin.qq.com/s/k4AUW3u0UcDme9D-RCIxGg">
