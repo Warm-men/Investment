@@ -31,13 +31,13 @@ class Headlines extends React.Component {
                         <span>资讯</span>热烈庆祝“零售资讯”上线
                       </li>
                       <li>
-                        <span>资讯</span>热烈庆祝“零售资讯”上线
+                        <span>资讯</span>828，工行理财节盛大
                       </li>
                       <li>
                         <span>资讯</span>热烈庆祝“零售资讯”上线
                       </li>
                       <li>
-                        <span>资讯</span>热烈庆祝“零售资讯”上线
+                        <span>资讯</span>828，工行理财节盛大
                       </li>
                       <li>
                         <span>资讯</span>热烈庆祝“零售资讯”上线

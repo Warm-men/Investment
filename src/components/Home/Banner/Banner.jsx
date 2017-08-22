@@ -7,7 +7,7 @@ let $ = require('jquery');
 require('./js/swiper.min.js');
 let pro1 = require('./images/banner2.jpg');
 let pro2 = require('./images/banner3.jpg');
-
+let pro3 = require('./images/banner4.jpg');
 
 //产品栏目
 class Banner extends React.Component {
@@ -39,6 +39,7 @@ class Banner extends React.Component {
               <div className="swiper-wrapper">
                 <a href='http://mp.weixin.qq.com/s/1D-So8U9rwXU6UCPzKJlBw' className="swiper-slide"><img className='index-img' src={pro1} /></a>
                 <a href='#' className="swiper-slide"><img className='index-img' src={pro2} /></a>
+                <a href='#' className="swiper-slide"><img className='index-img' src={pro3} /></a>
               </div>
               <div className="swiper-pagination"></div>
             </div>
