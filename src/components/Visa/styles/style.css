@@ -46,7 +46,7 @@ div{
 .visaBox .Service-Network{
   margin-top: 5px;
   width: 100%;
-  background-color: #ffffff;
+
 }
 .visaBox .Service-Network .sn-title{
   height: 40px;
@@ -56,6 +56,11 @@ div{
   font-family:YouYuan,Arial,Verdana,Sans-serif;
   color: #323232;
   border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+}
+.visaBox .Service-Network .service-cont-box{
+  margin-bottom: 5px;
+  background-color: #ffffff;
 }
 .visaBox .Service-Network .service-cont-box a{
    display: inline-block;

@@ -14,7 +14,7 @@ class Livelihood extends React.Component {
         return (
             <div>
               <div className="containt">
-                <a href="http://mp.weixin.qq.com/s/xmLi78blEeeikft9dbQmcA">
+                <a href="http://mp.weixin.qq.com/s/xmLi78blEeeikft9dbQmcA" className="livelihoodA">
                   <div className="Livelihood-new-list clearfix">
                     <div className="livelihood-new-list-item-lift fl">
                       <img src={Livelihood1} />
@@ -24,7 +24,7 @@ class Livelihood extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a href="http://mp.weixin.qq.com/s/w0N_XRKBMmc6mxLbs-6etg">
+                <a href="http://mp.weixin.qq.com/s/w0N_XRKBMmc6mxLbs-6etg" className="livelihoodA">
                   <div className="Livelihood-new-list clearfix">
                     <div className="livelihood-new-list-item-lift fl">
                       <img src={Livelihood2} />
@@ -34,7 +34,7 @@ class Livelihood extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a href="http://mp.weixin.qq.com/s/lYj_gjmJqqsD2ptrg2GeYg">
+                <a href="http://mp.weixin.qq.com/s/lYj_gjmJqqsD2ptrg2GeYg" className="livelihoodA">
                   <div className="Livelihood-new-list clearfix">
                     <div className="livelihood-new-list-item-lift fl">
                       <img src={Livelihood3} />

@@ -19,9 +19,9 @@ class Visa extends React.Component {
                 </div>
                 <div className="Service-Network">
                   <div className="sn-title">服务网点</div>
+                  {/*红围营业部*/}
                   <div className="service-cont-box" >
-
-                    <a href="http://wxdis3477.visachina.cn/index" >
+                    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxace036fbb4b7b7ac&redirect_uri=http%3A%2F%2Fwxdis3972.visachina.cn%2Findex&response_type=code&scope=snsapi_base&state=123&connect_redirect=1#wechat_redirect" >
                       <div className="service-cont-list clearfix">
                         <div className="service-cont-list-right fl">
                           <p>红围营业部</p>
@@ -36,7 +36,32 @@ class Visa extends React.Component {
                           </a>
                         </div>
                       </div>
-                      <a href="http://wxdis3477.visachina.cn/index">
+                      <a>
+                        <div className="clickTo">
+                          <span>点击办理</span>
+                          <i className="iconfont">&#xe612;</i>
+                        </div>
+                      </a>
+                    </a>
+                  </div>
+                  {/*和平支行*/}
+                  <div className="service-cont-box" >
+                    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxace036fbb4b7b7ac&redirect_uri=http%3A%2F%2Fwxdis3972.visachina.cn%2Findex&response_type=code&scope=snsapi_base&state=123&connect_redirect=1#wechat_redirect" >
+                      <div className="service-cont-list clearfix">
+                        <div className="service-cont-list-right fl">
+                          <p>和平支行</p>
+                          <div>
+                            <i className="iconfont">&#xe63c;</i>
+                            深圳市罗湖区嘉宾路4051号金威大夏首层104房
+                          </div>
+                        </div>
+                        <div className="service-cont-list-left fr">
+                          <a href="tel:0755-25588366">
+                            <i className="iconfont">&#xe600;</i>
+                          </a>
+                        </div>
+                      </div>
+                      <a>
                         <div className="clickTo">
                           <span>点击办理</span>
                           <i className="iconfont">&#xe612;</i>
@@ -45,7 +70,6 @@ class Visa extends React.Component {
                     </a>
 
                   </div>
-
                 </div>
                 <div className="empty20"></div>
               </div>

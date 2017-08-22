@@ -5,7 +5,13 @@
   border-bottom: 1px solid #e2dcdc;
   padding: 8px 0 5px 0;
 }
-.containt a{ display: block; }
+.containt .livelihoodA:last-child .Livelihood-new-list{
+  border-bottom: none;
+}
+.containt .livelihoodA{
+  display: block;
+  background: #fff;
+}
 .Livelihood-new-list .livelihood-new-list-item-lift{
   width: 80px;
   height: 100%;
