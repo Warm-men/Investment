@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/style.css'
 import { Link } from 'react-router'
+import Popu from '../Popu/Popu';
 
 let $ = require('jquery');
 
@@ -15,6 +16,26 @@ let pro8 = require('./images/more.png');
 
 //产品栏目
 class Pro extends React.Component {
+    constructor(){
+      super();
+      this.state = {
+        isWarning: false
+      }
+    }
+    showSaveCover() {
+      let self = this;
+      this.setState({
+        isWarning: true
+      });
+      if (this.timer) {
+        clearTimeout(this.timer);
+      }
+      this.timer = setTimeout(() => {
+        self.setState({
+          isWarning: false
+        });
+      }, 3000);
+    }
     render() {
         return (
             <div>
@@ -38,7 +59,7 @@ class Pro extends React.Component {
                   </li>
                   <li>
                     <Link to="/loan">
-                      <a href="loan.html">
+                      <a href="#">
                         <div>
                           <img src={pro3} alt="贷款" />
                         </div>
@@ -48,7 +69,7 @@ class Pro extends React.Component {
                   </li>
                   <li>
                     <Link to="/financing">
-                      <a>
+                      <a href="#">
                         <div>
                           <img src={pro4} alt="理财产品" />
                         </div>
@@ -81,7 +102,7 @@ class Pro extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a onClick={this.clickHandler.bind(this)}>
+                    <a onClick={this.showSaveCover.bind(this)}>
                       <div>
                         <img src={pro8} alt="其他" />
                       </div>
@@ -91,22 +112,14 @@ class Pro extends React.Component {
                 </ul>
               </div>
               {/*敬请期待*/}
-              <div className="waitingPopu">
-                <div className="waitingPopuBox">
-                  <div className="tip">
-                    敬请期待
-                  </div>
-                </div>
-              </div>
+              <div
+                style={{ display: this.state.isWarning ? "block" : "none" }}
+              ><Popu popuText="敬请期待"/></div>
             </div>
         )
     }
-    clickHandler() {
-      $('.waitingPopu').fadeIn(500);
-      setTimeout(function(){
-        $('.waitingPopu').fadeOut();
-      },2000)
-    }
+
+
 }
 
 export default Pro

@@ -36,12 +36,12 @@ class Visa extends React.Component {
                           </a>
                         </div>
                       </div>
-                      <a>
+                      <label>
                         <div className="clickTo">
                           <span>点击办理</span>
                           <i className="iconfont">&#xe612;</i>
                         </div>
-                      </a>
+                      </label>
                     </a>
                   </div>
                   {/*和平支行*/}
@@ -61,12 +61,12 @@ class Visa extends React.Component {
                           </a>
                         </div>
                       </div>
-                      <a>
+                      <label>
                         <div className="clickTo">
                           <span>点击办理</span>
                           <i className="iconfont">&#xe612;</i>
                         </div>
-                      </a>
+                      </label>
                     </a>
 
                   </div>
