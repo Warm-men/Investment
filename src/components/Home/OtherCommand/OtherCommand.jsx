@@ -15,9 +15,9 @@ class OtherCommand extends React.Component {
             <div>
               <div className="OtherCommand clearfix">
                 <div className="OtherComandBox fl">
-                  <a href="http://mp.weixin.qq.com/s/1D-So8U9rwXU6UCPzKJlBw">
-                    <p>每日推荐</p>
-                    <img src={other1} alt="每日推荐" />
+                  <a href="http://mp.weixin.qq.com/s/c_vAZoDTBqOejNp2FoRBDA">
+                      <p>每日推荐</p>
+                      <img src={other1} alt="每日推荐" />
                   </a>
                 </div>
                 <div className="OtherComandBox fr">

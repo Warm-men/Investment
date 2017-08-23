@@ -8,6 +8,7 @@ import Financing from '../components/Financing/Financing'
 import Livelihood from '../components/Livelihood/Livelihood'
 import Loan from '../components/Loan/Loan'
 import Visa from '../components/Visa/Visa'
+import DailyRecommend from '../components/DailyRecommend/DailyRecommend'
 import NotFound from '../components/NotFound'
 
 let time = 0;
@@ -25,6 +26,7 @@ class RouteMap extends React.Component {
                 <Route path='loan' component={Loan}/>
                 <Route path='livelihood' component={Livelihood}/>
                 <Route path='visa' component={Visa}/>
+                <Route path='dailyRecommend' component={DailyRecommend}/>
                 <Route path="*" component={NotFound}/>
               </Route>
             </Router>
