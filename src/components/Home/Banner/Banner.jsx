@@ -39,7 +39,7 @@ class Banner extends React.Component {
               <div className="swiper-wrapper">
                 <a href='http://mp.weixin.qq.com/s/c_vAZoDTBqOejNp2FoRBDA' className="swiper-slide"><img className='index-img' src={pro1} /></a>
                 <a href='#' className="swiper-slide"><img className='index-img' src={pro2} /></a>
-                <a href='#' className="swiper-slide"><img className='index-img' src={pro3} /></a>
+                <a href='http://mp.weixin.qq.com/s/RsEiZ5ZyLdaFW0EsXYUqaA' className="swiper-slide"><img className='index-img' src={pro3} /></a>
               </div>
               <div className="swiper-pagination"></div>
             </div>
