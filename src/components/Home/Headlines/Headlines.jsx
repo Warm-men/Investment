@@ -28,19 +28,16 @@ class Headlines extends React.Component {
                   <div className="maquee">
                     <ul>
                       <li>
-                        <span>资讯</span>热烈庆祝“零售资讯”上线
+                        <span>资讯</span>热烈庆祝“理财资讯”上线
                       </li>
                       <li>
                         <span>资讯</span>828，工行理财节盛大来袭
                       </li>
                       <li>
-                        <span>资讯</span>热烈庆祝“零售资讯”上线
+                        <span>资讯</span>热烈庆祝“理财资讯”上线
                       </li>
                       <li>
                         <span>资讯</span>828，工行理财节盛大来袭
-                      </li>
-                      <li>
-                        <span>资讯</span>热烈庆祝“零售资讯”上线
                       </li>
                     </ul>
                   </div>

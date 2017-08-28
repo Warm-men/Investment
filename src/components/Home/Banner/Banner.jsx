@@ -6,7 +6,6 @@ require('./styles/swiper.min.css');
 let $ = require('jquery');
 require('./js/swiper.min.js');
 let pro1 = require('./images/banner2.jpg');
-let pro2 = require('./images/banner3.jpg');
 let pro3 = require('./images/banner4.jpg');
 
 //产品栏目
@@ -38,7 +37,6 @@ class Banner extends React.Component {
             <div className="swiper-container">
               <div className="swiper-wrapper">
                 <a href='http://mp.weixin.qq.com/s/c_vAZoDTBqOejNp2FoRBDA' className="swiper-slide"><img className='index-img' src={pro1} /></a>
-                <a href='#' className="swiper-slide"><img className='index-img' src={pro2} /></a>
                 <a href='http://mp.weixin.qq.com/s/RsEiZ5ZyLdaFW0EsXYUqaA' className="swiper-slide"><img className='index-img' src={pro3} /></a>
               </div>
               <div className="swiper-pagination"></div>
