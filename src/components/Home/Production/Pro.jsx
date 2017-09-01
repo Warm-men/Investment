@@ -102,11 +102,11 @@ class Pro extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a onClick={this.showSaveCover.bind(this)}>
+                    <a href="http://mp.weixin.qq.com/s/xT9CuOAWfSFp-Y54IYzSFQ">
                       <div>
-                        <img src={pro8} alt="其他" />
+                        <img src={pro8} alt="热门" />
                       </div>
-                      <p>其他</p>
+                      <p>热门</p>
                     </a>
                   </li>
                 </ul>
