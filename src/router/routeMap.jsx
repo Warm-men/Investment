@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute } from 'react-router'
 import App from '../components/Main'
 import Home from '../components/Home/Home'
 import Financing from '../components/Financing/Financing'
-
+import Hit from '../components/Hit/Hit'
 import Livelihood from '../components/Livelihood/Livelihood'
 import Loan from '../components/Loan/Loan'
 import Visa from '../components/Visa/Visa'
@@ -25,6 +25,7 @@ class RouteMap extends React.Component {
                 <Route path='financing' component={Financing}/>
                 <Route path='loan' component={Loan}/>
                 <Route path='livelihood' component={Livelihood}/>
+                <Route path='hit' component={Hit}/>
                 <Route path='visa' component={Visa}/>
                 <Route path='dailyRecommend' component={DailyRecommend}/>
                 <Route path="*" component={NotFound}/>

@@ -102,12 +102,12 @@ class Pro extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a href="http://mp.weixin.qq.com/s/xT9CuOAWfSFp-Y54IYzSFQ">
+                    <Link to="/hit">
                       <div>
                         <img src={pro8} alt="热门" />
                       </div>
                       <p>热门</p>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

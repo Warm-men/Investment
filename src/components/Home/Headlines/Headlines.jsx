@@ -28,16 +28,22 @@ class Headlines extends React.Component {
                   <div className="maquee">
                     <ul>
                       <li>
-                        <span>资讯</span>热烈庆祝“理财资讯”上线
+                        <span>资讯</span>开学季工行陪您e起燃
                       </li>
                       <li>
-                        <span>资讯</span>828，工行理财节盛大来袭
+                        <span>资讯</span>理财节持续进行
                       </li>
                       <li>
-                        <span>资讯</span>热烈庆祝“理财资讯”上线
+                        <a href="http://mp.weixin.qq.com/s/ymkTkn2vIeaXDiuD4NqGGA"><span>资讯</span>工银理财热点在售</a>
                       </li>
                       <li>
-                        <span>资讯</span>828，工行理财节盛大来袭
+                        <span>资讯</span>开学季工行陪您e起燃
+                      </li>
+                      <li>
+                        <span>资讯</span>理财节持续进行
+                      </li>
+                      <li>
+                        <a href="http://mp.weixin.qq.com/s/ymkTkn2vIeaXDiuD4NqGGA"><span>资讯</span>工银理财热点在售</a>
                       </li>
                     </ul>
                   </div>
