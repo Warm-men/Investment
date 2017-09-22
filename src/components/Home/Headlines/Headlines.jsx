@@ -28,13 +28,7 @@ class Headlines extends React.Component {
                   <div className="maquee">
                     <ul>
                       <li>
-                        <span>资讯</span>开学季工行陪您e起燃
-                      </li>
-                      <li>
-                        <span>资讯</span>理财节持续进行
-                      </li>
-                      <li>
-                        <a href="http://mp.weixin.qq.com/s/ymkTkn2vIeaXDiuD4NqGGA"><span>资讯</span>工银理财热点在售</a>
+                        <a href="http://mp.weixin.qq.com/s/EqRx2hBeisy6exHWRBez7g"><span>资讯</span>迎国庆，庆中秋，第二届工银理财节倒计时6天，带你一起“燃”！</a>
                       </li>
                       <li>
                         <span>资讯</span>开学季工行陪您e起燃

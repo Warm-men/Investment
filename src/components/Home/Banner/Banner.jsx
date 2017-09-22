@@ -37,7 +37,7 @@ class Banner extends React.Component {
           <div className="l-tab-wrap index-swiper" id="index-swiper">
             <div className="swiper-container">
               <div className="swiper-wrapper">
-                <a href='http://mp.weixin.qq.com/s/5_ywYewhAFz0J4zVXznx2A' className="swiper-slide"><img className='index-img' src={pro1} alt="每日推荐" /></a>
+                <a href='http://mp.weixin.qq.com/s/q8wWAZr1-iyPRjy4Q9aZ6Q' className="swiper-slide"><img className='index-img' src={pro1} alt="每日推荐" /></a>
                 <a href='http://mp.weixin.qq.com/s/ZBYNXTcVREZUTuB0u3BAcw' className="swiper-slide"><img className='index-img' src={pro2} /></a>
                 <a href='http://mp.weixin.qq.com/s/-L0zqs-eejSp0nDCumzaew' className="swiper-slide"><img className='index-img' src={pro3} /></a>
               </div>
