@@ -23,7 +23,9 @@ class Visa extends React.Component {
 
               <div className="visaBox">
                 <div className="headBox">
-                  <img src={visa} />
+                  <a href="http://v2.rabbitpre.com/m/reAf6rk?lc=3&sui=7Zkfw7Q3&from=groupmessage&isappinstalled=0#from=share">
+                    <img src={visa} />
+                  </a>
                 </div>
                 <div className="brief-introduction Sp-font-family">
                   签证代传递服务是指我行合作的第三方专业服务机构为客户申请各国签证提供代办服务。我行通过指定营业网点在客户和第三方专业服务机构之间传递签证申请资料及费用。我行仅负责收取客户相关资料并进行传递，不负责签证材料的审核、出签与否、签证代传递业务投诉和纠纷处理。

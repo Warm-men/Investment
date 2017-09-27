@@ -5,7 +5,7 @@ import './styles/style.css'
 let Livelihood1 = require('./images/livelihood1.jpg');
 let Livelihood2 = require('./images/livelihood2.jpg');
 let Livelihood3 = require('./images/livelihood3.jpg');
-
+let Livelihood4 = require('./images/livelihood4.jpg');
 
 
 //产品栏目
@@ -14,6 +14,16 @@ class Livelihood extends React.Component {
         return (
             <div>
               <div className="containt">
+                <a href="http://mp.weixin.qq.com/s/aD7Rr3dQmA24MnqruFs7UA" className="livelihoodA">
+                  <div className="Livelihood-new-list clearfix">
+                    <div className="livelihood-new-list-item-lift fl">
+                      <img src={Livelihood4} />
+                    </div>
+                    <div className="livelihood-new-list-item-right fl">
+                      紧急！最后两周！你必须注意的事情！
+                    </div>
+                  </div>
+                </a>
                 <a href="http://mp.weixin.qq.com/s/xmLi78blEeeikft9dbQmcA" className="livelihoodA">
                   <div className="Livelihood-new-list clearfix">
                     <div className="livelihood-new-list-item-lift fl">

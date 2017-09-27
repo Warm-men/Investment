@@ -8,6 +8,7 @@ require('./js/swiper.min.js');
 let pro1 = require('./images/banner2.jpg');
 let pro2 = require('./images/banner5.png');
 let pro3 = require('./images/banner4.jpg');
+let pro4 = require('./images/banner5.jpg');
 
 //产品栏目
 class Banner extends React.Component {
@@ -37,7 +38,8 @@ class Banner extends React.Component {
           <div className="l-tab-wrap index-swiper" id="index-swiper">
             <div className="swiper-container">
               <div className="swiper-wrapper">
-                <a href='http://mp.weixin.qq.com/s/q8wWAZr1-iyPRjy4Q9aZ6Q' className="swiper-slide"><img className='index-img' src={pro1} alt="每日推荐" /></a>
+                <a href='http://mp.weixin.qq.com/s/xy5-jwdJmD2qHnrqZ9ZHrg' className="swiper-slide"><img className='index-img' src={pro1} alt="每日推荐" /></a>
+                <a href='http://v2.rabbitpre.com/m/reAf6rk?lc=3&sui=7Zkfw7Q3&from=groupmessage&isappinstalled=0#from=share' className="swiper-slide"><img className='index-img' src={pro4} /></a>
                 <a href='http://mp.weixin.qq.com/s/ZBYNXTcVREZUTuB0u3BAcw' className="swiper-slide"><img className='index-img' src={pro2} /></a>
                 <a href='http://mp.weixin.qq.com/s/-L0zqs-eejSp0nDCumzaew' className="swiper-slide"><img className='index-img' src={pro3} /></a>
               </div>
