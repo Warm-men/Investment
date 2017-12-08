@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Pro from './Production/Pro';
-import Banner from './Banner/Banner';
-import Headlines from './Headlines/Headlines';
-import OtherCommand from './OtherCommand/OtherCommand';
+import Pro from '../../components/Production/Pro';
+import Banner from '../../components/Banner/Banner';
+import Headlines from '../../components/Headlines/Headlines';
+import OtherCommand from '../../components/OtherCommand/OtherCommand';
 
 class Home extends React.Component {
   render() {

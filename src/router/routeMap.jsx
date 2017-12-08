@@ -1,12 +1,13 @@
 import React from 'react'
 import { Router, Route, IndexRoute } from 'react-router'
 
-import App from '../components/Main'
-import Home from '../components/Home/Home'
+import App from '../containers/Main'
+import Home from '../containers/Home/Home'
 import Financing from '../components/Financing/Financing'
 import Hit from '../components/Hit/Hit'
 import Livelihood from '../components/Livelihood/Livelihood'
 import Loan from '../components/Loan/Loan'
+import DotQuery from '../containers/DotQuery/DotQuery'
 import Visa from '../components/Visa/Visa'
 import DailyRecommend from '../components/DailyRecommend/DailyRecommend'
 import NotFound from '../components/NotFound'
@@ -27,6 +28,7 @@ class RouteMap extends React.Component {
                 <Route path='livelihood' component={Livelihood}/>
                 <Route path='hit' component={Hit}/>
                 <Route path='visa' component={Visa}/>
+                <Route path='dotQuery' component={DotQuery}/>
                 <Route path='dailyRecommend' component={DailyRecommend}/>
                 <Route path="*" component={NotFound}/>
               </Route>

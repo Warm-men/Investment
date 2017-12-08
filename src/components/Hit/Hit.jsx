@@ -1,6 +1,7 @@
 import React from 'react'
 
 let hit1 = require('./images/hit1.jpg');
+let hit2 = require('./images/hit2.png');
 
 //产品栏目
 class Hit extends React.Component {
@@ -8,6 +9,17 @@ class Hit extends React.Component {
         return (
             <div>
               <div className="containt">
+
+                <a href="http://mp.weixin.qq.com/s/4P_CNNud9x1VEPkqCJRSRA" className="livelihoodA">
+                  <div className="Livelihood-new-list clearfix">
+                    <div className="livelihood-new-list-item-lift fl">
+                      <img src={hit2} />
+                    </div>
+                    <div className="livelihood-new-list-item-right fl">
+                      【国庆重磅福利来袭】9月29日、9月30日现金管理类产品等您来买，资金投资不放假！
+                    </div>
+                  </div>
+                </a>
                 <a href="http://mp.weixin.qq.com/s/qadBpgGnx6ieF7CaGXUbhg" className="livelihoodA">
                   <div className="Livelihood-new-list clearfix">
                     <div className="livelihood-new-list-item-lift fl">
