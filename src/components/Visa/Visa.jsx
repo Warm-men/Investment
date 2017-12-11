@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 
 let visa = require('./images/visa.jpg');
-
+let service = require('./images/Customer-service.png');
 
 //产品栏目
 class Visa extends React.Component {
@@ -22,7 +22,13 @@ class Visa extends React.Component {
     render() {
         return (
             <div>
-
+              {/*客服链接*/}
+              <div className="Customer-service">
+                <a href="http://html.ecqun.com/kf/sdk/openwin.html?corpid=6287319&cstype=rand&mode=0&cskey=2ika79Q4s1DID1RJo6&scheme=0">
+                  <img src={service} alt="联系客服"/>
+                  <p>联系客服</p>
+                </a>
+              </div>
               <div className="visaBox">
                 <div className="headBox">
                   <a href="http://v2.rabbitpre.com/m/reAf6rk?lc=3&sui=7Zkfw7Q3&from=groupmessage&isappinstalled=0#from=share">
@@ -34,7 +40,7 @@ class Visa extends React.Component {
                 </div>
                 <div className="check-box">
                   {/*服务网点*/}
-                  <Link to="/DotQuery">
+                  <Link to="/dotQuery">
                     <div  className="check">
                       <div>
                         <span>服务网点</span>

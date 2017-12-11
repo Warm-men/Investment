@@ -1,12 +1,12 @@
 .search-box{
-    height: 60px;
+    height: 75px;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
 .search-box .search-con{
-    height: 80%;
+    height: 50px;
     width: 96%;
     border-radius: 8px;
     background-color: #ffffff;
@@ -14,6 +14,7 @@
     display: -webkit-flex;
     justify-content: flex-start;
     align-items: center;
+  overflow: hidden;
 }
 .search-box .search-con span{
     width: 8%;
@@ -25,7 +26,7 @@
 }
 .search-box .search-con input{
     width: calc( 90% - 10px );
-    height: 100%;
+    height: calc( 100% - 4px );
     border: none;
     outline: none;
     font-size: 1.5rem;
