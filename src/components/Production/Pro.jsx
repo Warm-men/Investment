@@ -59,22 +59,22 @@ class Pro extends React.Component {
                   </li>
                   <li>
                     <Link to="/loan">
-                      <a href="#">
+
                         <div>
                           <img src={pro3} alt="贷款" />
                         </div>
                         <p>个人贷款</p>
-                      </a>
+
                     </Link>
                   </li>
                   <li>
                     <Link to="/financing">
-                      <a href="#">
+
                         <div>
                           <img src={pro4} alt="理财产品" />
                         </div>
                         <p>理财产品</p>
-                      </a>
+
                     </Link>
                   </li>
                   <li>

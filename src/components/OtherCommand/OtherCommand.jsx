@@ -22,10 +22,10 @@ class OtherCommand extends React.Component {
                 </div>
                 <div className="OtherComandBox fr">
                   <Link to="/livelihood">
-                    <a>
+
                       <p>民生服务</p>
                       <img src={other2} alt="民生服务" />
-                    </a>
+
                   </Link>
                 </div>
                 <div className="OtherComandBox fl">
@@ -36,10 +36,8 @@ class OtherCommand extends React.Component {
                 </div>
                 <div className="OtherComandBox fr">
                   <Link to="/visa">
-
                       <p>签证代传递</p>
                       <img src={other4} alt="代办签证" />
-
                   </Link>
                 </div>
               </div>
